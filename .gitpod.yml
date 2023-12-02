@@ -1,0 +1,6 @@
+tasks:
+  - name: azure-cli
+    before: |
+      source ./bin/install_azure_cli
+
+
