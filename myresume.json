@@ -1,85 +1,90 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
-    "image": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
+    "name": "Mohamed Dine",
+    "label": "Cloud Engineer",
+    "image": "/workspace/serverless-resume-api/assets/DiniP.JPG",
+    "email": "MDini95@outlook.com",
+    "phone": "647-607-3402",
+    "url": "https://MD-95.com",
     "summary": "A summary of John Doe…",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Toronto",
+      "countryCode": "CA",
+      "region": "Ontario"
     },
     "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "https://twitter.com/john"
+      "network": "Github",
+      "username": "MoeDini95",
+      "url": "https://github.com/MoeDini95"
     }]
   },
   "work": [{
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
+    "name": "AWS (Amazon)",
+    "position": "IT Support Associate II",
+    "startDate": "01-04-2023",
+    "endDate": "Preset",
     "highlights": [
-      "Started the company"
+      "Updated and created SOPs to improve the knowledge base for Amazon IT",
+      "Worked within Exchange Powershell for mailbox management and distribution group administration",
+      "Created custom bash scripts to automate repetitive tasks, reducing manual workload",
+      "Managed laptops and mobile devices using Jamf(MDM) to ensure security policies were enforced to protect company/user data",
+      "Provided support to engineers regarding cloud/developer instances"
+
     ]
   }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
+  "Work": [{
+    "organization": "Keilhauer",
+    "position": "IT Support Specialist",
+    "startDate": "25-11-2019",
+    "endDate": "18-03-2022",
     "highlights": [
-      "Awarded 'Volunteer of the Month'"
+      "Updated the company's internal website using HTML/CSS & JavaScript",
+      "Managed all network connectivity (LAN/WAN, wireless, routing) and network infrastructure hardware using industry standard best practices",
+      "Maintained server infrastructure" ,
+      "Managed Active Directory across all domains to ensure all user accounts and groups were functioning and up to date",
+      "Effectively managed equipment life cycles and provided input regarding annual budget"
     ]
   }],
   "education": [{
-    "institution": "University",
-    "url": "https://institution.com/",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
+    "institution": "University of Toronto",
+    "major": "Political Science & Canadian Studies",
+    "studyType": "Honours Bachelor of Arts",
+    "startDate": "06-09-2013",
+    "endDate": "30-04-2019"
   }],
   "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
+    "name": "Azure Fundamentals AZ-900",
+    "date": "12-06-2022",
+    "issuer": "Microsoft",
+    "url": "https://www.credly.com/badges/84873aa1-d8fb-4cc2-8887-fc17f5a089c6?source=linked_in_profile"
   }],
   "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
+    "name": "Identity and Belonging among Diasporic Somali Youth in the GTA",
+    "publisher": "Prandium - The Journal of Historical Studies",
+    "releaseDate": "08-09-2019",
+    "url": "https://jps.library.utoronto.ca/index.php/prandium/article/view/33575/25784",
+    "summary": "A research about Somali youth within the GTA and their sense of belongingness within their families, community, and schools. Throughout the years, it is evident that Somali youth face many challenges within the categories listed, which is why I decided to take part in this study. I tend to dig deep and figure out why these challenges exist through one on one interviews and outline why the level of support does not exist for our youth."
   }],
   "skills": [{
-    "name": "Web Development",
-    "level": "Master",
+    "name": "Cloud Engineer/Devops",
     "keywords": [
       "HTML",
       "CSS",
-      "JavaScript"
+      "JavaScript",
+      "S3",
+      "Azure Blob Storage",
+      "CloudFront",
+      "Linux",
+      "Python",
+      "Terraform",
+      "Jenkins",
+      "Ansible",
+      "Docker",
+      "Bash Scripting",
+      "OpenStack",
+      "DynamoDB"
+
+
     ]
   }],
   "languages": [{
@@ -87,32 +92,25 @@
     "fluency": "Native speaker"
   }],
   "interests": [{
-    "name": "Wildlife",
     "keywords": [
-      "Ferrets",
-      "Unicorns"
+      "Basketball",
+      "Cycling",
+      "Hiking",
+      "Reading",
+      "Travelling"
     ]
   }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
+
   "projects": [{
-    "name": "Project",
-    "description": "Description…",
+    "name": "The Cloud Resume Challenge",
+    "description": "Hosted my resume on a static webpage using multiple cloud services and coding languages",
     "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "keywords": [
-      "HTML"
-    ],
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "url": "https://project.com/",
-    "roles": [
-      "Team Lead"
-    ],
-    "entity": "Entity",
-    "type": "application"
+      "Used HTML/CSS to style design the website",
+      "Hosted resume using the following AWS services: S3, CloudFront, and Route53",
+      "Worked with DynamoDB to create a table to store visitor counter data",
+      "Used Python to invoke a lambda function to communicate with DynamoDB to process website data",
+      "Converted AWS infrastructure into IaC using Terraform to promote safe, consistent, and trackable coding"
+    ]
+
   }]
 }
