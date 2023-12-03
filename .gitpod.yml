@@ -1,0 +1,3 @@
+tasks:
+  - name: azure-cli-install
+    command: curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
