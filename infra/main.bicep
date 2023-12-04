@@ -7,7 +7,7 @@ param location string
 
 resource resourceGroup 'Microsoft.Resources/resourceGroups@2020-06-01' = {
     name: 'rg-serverlessresumeapi'
-    location: eastus
+    location: location
 }
 
 
@@ -15,7 +15,7 @@ module resources './resources.bicep' = {
     name: 'resources'
     scope: resourceGroup
     params: {
-        location: eastus
+        location: location
     }
 }
 
